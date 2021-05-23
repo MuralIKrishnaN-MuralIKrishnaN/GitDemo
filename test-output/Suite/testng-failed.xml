@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="propertyName" value="firefox"/>
+  <test name="ManualTest">
+    <classes>
+      <class name="qaclickacademy.Mavenjava.ManualTest"/>
+    </classes>
+  </test> <!-- ManualTest -->
+  <test name="APITest">
+    <parameter name="propertyName" value="firefox"/>
+    <classes>
+      <class name="qaclickacademy.Mavenjava.APITest"/>
+    </classes>
+  </test> <!-- APITest -->
+  <test name="AutomationTest">
+    <classes>
+      <class name="qaclickacademy.Mavenjava.AutomationTest"/>
+    </classes>
+  </test> <!-- AutomationTest -->
+  <test name="PerformanceTest">
+    <classes>
+      <class name="qaclickacademy.Mavenjava.PerformanceTest"/>
+    </classes>
+  </test> <!-- PerformanceTest -->
+  <test name="MobileTest">
+    <classes>
+      <class name="qaclickacademy.Mavenjava.MobileTest"/>
+    </classes>
+  </test> <!-- MobileTest -->
+</suite> <!-- Failed suite [Suite] -->

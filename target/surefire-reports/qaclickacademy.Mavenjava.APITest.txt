@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: qaclickacademy.Mavenjava.APITest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.544 s <<< FAILURE! - in qaclickacademy.Mavenjava.APITest
+qaclickacademy.Mavenjava.APITest.SoapUI  Time elapsed: 1.962 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'systemPropertyVariables' is required by @Test on method SoapUI but has not been marked @Optional or defined
+
+
+qaclickacademy.Mavenjava.APITest.RestApi  Time elapsed: 1.964 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'systemPropertyVariables' is required by @Test on method RestApi but has not been marked @Optional or defined
+
+

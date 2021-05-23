@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="ManualTest.functional()[pri:0, instance:qaclickacademy.Mavenjava.ManualTest@ff5b51f]" name="functional" class="qaclickacademy.Mavenjava.ManualTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="80" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+      <class name="qaclickacademy.Mavenjava.ManualTest">
+        <test-method status="PASS" signature="NonFunctiona()[pri:0, instance:qaclickacademy.Mavenjava.ManualTest@ff5b51f]" name="NonFunctiona" duration-ms="11" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NonFunctiona -->
+        <test-method status="PASS" signature="functional()[pri:0, instance:qaclickacademy.Mavenjava.ManualTest@ff5b51f]" name="functional" duration-ms="9" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functional -->
+      </class> <!-- qaclickacademy.Mavenjava.ManualTest -->
+      <class name="qaclickacademy.Mavenjava.PerformanceTest">
+        <test-method status="PASS" signature="jmeter()[pri:0, instance:qaclickacademy.Mavenjava.PerformanceTest@5702b3b1]" name="jmeter" duration-ms="12" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jmeter -->
+        <test-method status="PASS" signature="HPLoadRunner()[pri:0, instance:qaclickacademy.Mavenjava.PerformanceTest@5702b3b1]" name="HPLoadRunner" duration-ms="10" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPLoadRunner -->
+      </class> <!-- qaclickacademy.Mavenjava.PerformanceTest -->
+      <class name="qaclickacademy.Mavenjava.MobileTest">
+        <test-method status="PASS" signature="ctest()[pri:0, instance:qaclickacademy.Mavenjava.MobileTest@69ea3742]" name="ctest" duration-ms="11" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctest -->
+        <test-method status="PASS" signature="katalon()[pri:0, instance:qaclickacademy.Mavenjava.MobileTest@69ea3742]" name="katalon" duration-ms="10" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- katalon -->
+        <test-method status="PASS" signature="Appium()[pri:0, instance:qaclickacademy.Mavenjava.MobileTest@69ea3742]" name="Appium" duration-ms="10" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appium -->
+      </class> <!-- qaclickacademy.Mavenjava.MobileTest -->
+      <class name="qaclickacademy.Mavenjava.AutomationTest">
+        <test-method status="PASS" signature="QTPCode()[pri:0, instance:qaclickacademy.Mavenjava.AutomationTest@25bbe1b6]" name="QTPCode" duration-ms="12" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QTPCode -->
+        <test-method status="PASS" signature="SeleniumCode()[pri:0, instance:qaclickacademy.Mavenjava.AutomationTest@25bbe1b6]" name="SeleniumCode" duration-ms="12" started-at="2021-03-18T04:09:29 IST" finished-at="2021-03-18T04:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumCode -->
+      </class> <!-- qaclickacademy.Mavenjava.AutomationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86" started-at="2021-03-21T14:17:38Z" finished-at="2021-03-21T14:17:38Z">
+    <groups>
+      <group name="smoke">
+        <method signature="ManualTest.functional()[pri:0, instance:qaclickacademy.Mavenjava.ManualTest@721e0f4f]" name="functional" class="qaclickacademy.Mavenjava.ManualTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="86" started-at="2021-03-21T14:17:38Z" finished-at="2021-03-21T14:17:38Z">
+      <class name="qaclickacademy.Mavenjava.ManualTest">
+        <test-method status="PASS" signature="NonFunctiona()[pri:0, instance:qaclickacademy.Mavenjava.ManualTest@721e0f4f]" name="NonFunctiona" duration-ms="31" started-at="2021-03-21T19:47:38Z" finished-at="2021-03-21T19:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NonFunctiona -->
+        <test-method status="PASS" signature="functional()[pri:0, instance:qaclickacademy.Mavenjava.ManualTest@721e0f4f]" name="functional" duration-ms="2" started-at="2021-03-21T19:47:38Z" finished-at="2021-03-21T19:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functional -->
+      </class> <!-- qaclickacademy.Mavenjava.ManualTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
