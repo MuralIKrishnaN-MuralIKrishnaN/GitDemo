@@ -12,6 +12,7 @@ public void SoapUI(String propertyName)
 	System.out.println("Entered and verified  the soapUI code");
 	System.out.println(propertyName);
 	System.out.println("Validated the soapUI code");
+	System.out.println("Manual Test is forever, evergreen and everalsting");
 }
 @Parameters({"systemPropertyVariables"})
 @Test
@@ -21,5 +22,6 @@ public void RestApi(String propertyName)
 	System.out.println("Entered and verified  the Rest Api Code");
 	System.out.println(propertyName);
 	System.out.println("Validated the soapUI code");
+	System.out.println("Manual Test is forever, evergreen and everalsting");
 }
 }
